@@ -1,0 +1,193 @@
+.atendimento {
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    background: #f7f7f7;
+    text-align: center;    
+}
+.atendimento .texts {
+        width: 80%;
+        margin: 0 auto;
+}
+.atendimento .texts h5 {
+    margin: 40px auto;
+    margin-bottom: 80px;
+    color: #737b80;
+}
+.passos {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.passos p, h1{    
+    margin: 0;
+    padding: 0;
+}
+.passos .card {
+    color: #737b80;
+    width: 70px;
+    height: 80px;
+    margin: auto;
+    border: 4px solid #000;
+    background: transparent;
+}
+.line {
+    border: 2px solid #737b80;
+    height: 2px;
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: 6.5%;
+    width: 22%;
+}
+.txt {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.txt .card {
+    background: transparent;
+    border: none;
+    margin: 40px auto;
+    text-align: center;
+    width: auto;
+}
+.txt .card .card-text {
+    font-size: 13px;
+    color: #a7acb0;
+}
+.investir {
+    width: 100%;
+    text-align: center;
+    background: #FFF;
+    padding: 80px;
+}
+.investir h5 {
+    margin: 20px auto;
+    margin-bottom: 80px;
+    color: #737b80;
+}
+.buttons{
+    width: 100%;
+}
+.buttons button{
+    height: 35px;
+    border-radius: 25px;
+    padding: 5px;
+    margin:10px;  
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+.fixa {
+    border: none;
+    padding: auto 40px;
+    width:20%;
+    background: #48eb79;
+    color: #FFF;
+}
+.fixa:hover {
+    cursor: pointer;
+    border: 2px solid #48eb79;
+    padding: auto 40px;
+    background: #fff;
+    color: #48eb79;
+}
+.variavel {
+    border: 2px solid #48eb79;
+    color: #48eb79;
+    background: transparent;
+    padding: auto 40px;
+    width:20%;
+}
+.variavel:hover{
+    cursor: pointer;
+    border: 2px solid #48eb79;
+    padding: auto 40px;
+    background: #48eb79;
+    color: #FFF;
+}
+.icones {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 60px auto;
+}
+.icones .card {
+    width: auto;
+    text-align: center;
+    border: none;
+}
+.icones .card img {
+    width: 64px;
+    margin: 0 auto;
+}
+.icones .card .card-text {
+    font-size: 13px;
+    color: #a7acb0;
+}
+.atendimento span {
+    color: #48eb79;
+}
+.investir span {
+    color: #48eb79;
+}
+@media(max-width: 800px){
+    .passos {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .txt {
+        width: 100%;
+    }
+    .txt .card .card-title {
+        font-size: 13px;
+    }
+    .line {
+        margin-top: 40px; 
+        width: 10%;
+    }
+    .fixa {
+        width:100%;
+    }
+    .variavel {
+        width:100%;
+    }
+    .icones {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media(max-width:499px){
+    .line {
+        width: 0%;
+    }
+    .txt {
+        width: 100%;
+    }
+    .txt .card .card-title {
+        font-size: 10.5px;
+    }
+    .txt .card .card-text {
+        font-size: 10px;
+        text-align: center;
+    }
+    .txt .card {
+        margin: 5px;
+    }
+    .passos {
+        width: 100%;
+    }
+}
+@media(min-width: 900px){
+    .passos {
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .line {
+        margin-top: 4%;
+        width: 25%;
+    }
+    .txt {
+        width: 65%;
+    }
+}

@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 16px;
+}
+nav img {
+    width: 350px;
+}
+nav span {
+    color: #fff;
+}
+nav span img {
+    width: 24px;
+}
+.navbar-nav {
+    margin-left: 20%;
+}
+@media(max-width: 800px){
+    nav {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 460px) {
+    nav img {
+        width: 250px;
+    }
+}
